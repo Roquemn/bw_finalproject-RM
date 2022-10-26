@@ -1,0 +1,139 @@
+/* General Styling Starts */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/hall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /* General Styling Ends */
+  
+  
+  /* Header Starts */
+  
+  .first {
+    background-image: url(/img/fire-burn.gif);
+    height: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-style: italic;
+    color: yellow;
+  }
+
+  /* Header Ends */
+  
+  /* Navigation Stuff Starts */
+  nav {
+    position: sticky;
+    background-color: transparent;
+  }
+  
+  .image {
+    height: 65px;
+    vertical-align: middle;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    text-decoration: none;
+    margin-left: 30px;
+    list-style-type: none;
+    font-size: 1.5rem;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: yellow;
+  }
+  
+  /* mouse over link*/
+  a:hover {
+    color: whitesmoke;
+    text-shadow: 2px 4px rgba(255, 255, 0, .6);
+  
+  }
+  
+  /* selected link */
+  a:active {
+    color: grey;
+  }
+  /* Navigation Stuff Ends */
+  
+  
+  /* main body section starts */
+  /* contact form*/
+  form {
+    color: yellow;
+    width: 30%;
+    background-color: rgba(139, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  #name,
+  #email,
+  #fill {
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+
+  input {
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px
+  }
+  /* contact form ends */
+  /* main body section Ends */
+  
+  
+  /* Footer Starts */
+  footer {
+    text-align: center;
+    color: yellow;
+    padding: 35px 0;
+  }
+  
+  /* social media links*/
+  
+  .fa-solid,
+  .fa-brands {
+    color: yellow;
+    font-size: 48px;
+    margin: 15px;
+  }
+  
+  
+  .fa:hover {
+    color: darkred;
+    transition: .4s ease;
+  }
+
+  
+  
+  
+  
